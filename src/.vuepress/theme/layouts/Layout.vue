@@ -51,6 +51,12 @@ body {
   background-color: var(--background-color);
 }
 
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 a {
   color: var(--primary-color);
 }
@@ -1006,6 +1012,8 @@ a {
   grid-template-columns: repeat(3, 1fr);
   column-gap: 15px;
   row-gap: 15px;
+
+  max-width: 1200px;
 }
 
 .layout__header {

@@ -1034,5 +1034,6 @@ a {
   grid-column: 2 / 4;
   background-color: var(--background-content-color);
   border-radius: .3rem;
+  width: 100%;
 }
 </style>

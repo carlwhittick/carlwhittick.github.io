@@ -461,7 +461,7 @@ const clientAppSetups = [
 
 
 const pagesComponent = {
-  "/": (0,external_vue_.defineAsyncComponent)(() => __webpack_require__.e(/* import() | v-8daa1a0e */ 509).then(__webpack_require__.bind(__webpack_require__, 637))),
+  "/": (0,external_vue_.defineAsyncComponent)(() => __webpack_require__.e(/* import() | v-8daa1a0e */ 509).then(__webpack_require__.bind(__webpack_require__, 464))),
   "/test.html": (0,external_vue_.defineAsyncComponent)(() => __webpack_require__.e(/* import() | v-953546a4 */ 880).then(__webpack_require__.bind(__webpack_require__, 188))),
   "/404.html": (0,external_vue_.defineAsyncComponent)(() => __webpack_require__.e(/* import() | v-3706649a */ 88).then(__webpack_require__.bind(__webpack_require__, 924))),
 }
@@ -470,7 +470,7 @@ const pagesComponent = {
 
 
 const layoutComponents = {
-  "Layout": (0,external_vue_.defineAsyncComponent)(() => __webpack_require__.e(/* import() */ 929).then(__webpack_require__.bind(__webpack_require__, 929))),
+  "Layout": (0,external_vue_.defineAsyncComponent)(() => __webpack_require__.e(/* import() */ 653).then(__webpack_require__.bind(__webpack_require__, 653))),
 }
 
 ;// CONCATENATED MODULE: ./src/.vuepress/.temp/internal/pagesData.js
@@ -839,7 +839,7 @@ Vuepress.displayName = 'Vuepress';
     name: "v-8daa1a0e",
     path: "/",
     component: Vuepress,
-    meta: { title: "Test" },
+    meta: { title: "" },
   },
   {
     path: "/index.html",

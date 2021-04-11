@@ -32,7 +32,7 @@ const script = {}
 ;
 script.ssrRender = (...args) => {
   const ssrContext = args[2].appContext.provides[external_vue_.ssrContextKey]
-  ssrContext._registeredComponents.add("C:\\Users\\carlw\\Documents\\workingcopy\\carlwhittick.co.uk\\node_modules\\@vuepress\\bundler-webpack\\lib\\build\\ssr\\vuepressLoader.js!C:\\Users\\carlw\\Documents\\workingcopy\\carlwhittick.co.uk\\node_modules\\vue-loader\\dist\\index.js??ruleSet[0].use[1]!C:\\Users\\carlw\\Documents\\workingcopy\\carlwhittick.co.uk\\src\\.vuepress\\.temp\\pages\\test.vue")
+  ssrContext._registeredComponents.add("C:\\Users\\carlw\\Documents\\workingcopy\\carlwhittick.github.io\\node_modules\\@vuepress\\bundler-webpack\\lib\\build\\ssr\\vuepressLoader.js!C:\\Users\\carlw\\Documents\\workingcopy\\carlwhittick.github.io\\node_modules\\vue-loader\\dist\\index.js??ruleSet[0].use[1]!C:\\Users\\carlw\\Documents\\workingcopy\\carlwhittick.github.io\\src\\.vuepress\\.temp\\pages\\test.vue")
   return ssrRender(...args)
 }
 

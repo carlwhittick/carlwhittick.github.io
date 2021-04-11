@@ -14,13 +14,12 @@ export default {
 
   data() {
     return {
-      get state() {
-        return localStorage.getItem('state') || 'light';
-      },
-      set state(value) {
-        localStorage.setItem('state', value);
-      }
+      state: 'light',
     }
+  },
+
+  mounted() {
+    this.state = window.localStorage.getItem('state') || 'light'
   },
 
   computed: {
@@ -30,11 +29,9 @@ export default {
   },
 
   watch: {
-    state: {
-      immediate: true,
-      handler(state) {
-        document.body.classList.toggle('dark', state === 'dark')
-      },
+    state(state) {
+      document.body.classList.toggle('dark', state === 'dark')
+      window.localStorage.setItem('state', state);
     },
   },
 

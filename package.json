@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev src",
-    "build": "vuepress build src & echo www.carlwhittick.co.uk > src/.vuepress/dist/CNAME",
+    "build": "vuepress build src",
+    "build:cname": "echo www.carlwhittick.co.uk > src/.vuepress/dist/CNAME",
     "deploy": "git subtree push --prefix src/.vuepress/dist origin gh-pages"
   },
   "devDependencies": {

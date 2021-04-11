@@ -1,0 +1,14 @@
+{
+  "name": "carlwhittick.co.uk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Carl <carlwhittick@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.7"
+  }
+}

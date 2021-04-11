@@ -1,1 +1,0 @@
-# carlwhittick.github.io
